@@ -1,0 +1,48 @@
+:root {
+    --borderColor:red;
+    --fontFam:helvetica, sans-serif;
+    --fontSize:18px;
+}
+
+body {
+    border-color: var(--borderColor);
+    font-family: var(--fontFam);
+}
+
+.theme-toggle {
+    background-color: white;
+}
+
+button {
+    color:var(--borderColor);
+    background-color: white;
+}
+
+.icon {
+    display:inline-flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    outline: 2px solid var(--borderColor);
+    transition-duration: .025s;
+}
+
+.icon:hover {
+    outline-offset: 4px;
+}
+
+.card {
+    border-radius: 1.5%;
+    border-width: 1.5px;
+    border-color: var(--borderColor);
+}
+
+.btn {
+    background-color: black;
+    border-color: black;
+}
+
+#name, #email {
+    width: 200px;
+    display:inline-flex;
+}
