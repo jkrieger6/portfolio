@@ -1,9 +1,10 @@
 :root {
     --dark:rgb(73, 67, 67);
     --darkFont:rgba(0, 250, 221, 0.789);
-    --fontSize:18px;
+    --fontSize:16px;
     --fontFam:helvetica;
     --buttonColor:rgba(133, 255, 19, 0.803);
+    --hoverColor:rgb(155, 140, 238);
 }
 
 body {
@@ -38,6 +39,14 @@ button {
     border-color: var(--buttonColor);
 }
 
+.card:hover {
+    border-color: var(--darkFont);
+    transition: transfrom .2s;
+    width: auto;
+    height: auto;
+    border-width: 6px;
+}
+
 .icon {
     display:inline-flex;
     width: 40px;
@@ -49,4 +58,10 @@ button {
 
 .icon:hover {
     outline-offset: 4px;
+    color:var(--hoverColor)
+}
+
+#name, #email {
+    width: 200px;
+    display:inline-flex;
 }
