@@ -1,12 +1,13 @@
 :root {
     --borderColor:red;
     --fontFam:helvetica, sans-serif;
-    --fontSize:18px;
+    --fontSize:16px;
 }
 
 body {
     border-color: var(--borderColor);
     font-family: var(--fontFam);
+    font-size: var(--fontSize);
 }
 
 .theme-toggle {
@@ -42,8 +43,8 @@ button {
     border-color: black;
     /* padding: 50px; */
     transition: transfrom .2s;
-    width: 350px;
-    height: 455px;
+    width: auto;
+    height: auto;
     border-width: 6px;
 }
 
