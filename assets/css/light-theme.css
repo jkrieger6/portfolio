@@ -22,19 +22,29 @@ button {
     display:inline-flex;
     width: 40px;
     height: 40px;
-    border-radius: 50%;
+    border-radius: 55%;
     outline: 2px solid var(--borderColor);
     transition-duration: .025s;
 }
 
 .icon:hover {
-    outline-offset: 4px;
+    outline-offset: 3px;
+    color:black;
 }
 
 .card {
     border-radius: 1.5%;
     border-width: 1.5px;
     border-color: var(--borderColor);
+}
+
+.card:hover {
+    border-color: black;
+    /* padding: 50px; */
+    transition: transfrom .2s;
+    width: 350px;
+    height: 455px;
+    border-width: 6px;
 }
 
 .btn {
