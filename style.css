@@ -28,6 +28,11 @@ body {
     left: 500px;
 }
 
+.theme-toggle:hover {
+    background-color: white;
+    color: black;
+}
+
 button {
     background-color: var(--dark);
     color: var(--buttonColor);
@@ -48,6 +53,14 @@ button {
     border-width: 6px;
 }
 
+.btn {
+    background-color: var(--hoverColor);
+}
+
+.btn:hover {
+    background-color: var(--buttonColor);
+}
+
 .icon {
     display:inline-flex;
     width: 40px;
@@ -59,10 +72,20 @@ button {
 
 .icon:hover {
     outline-offset: 4px;
-    color:var(--hoverColor)
+    color:var(--hoverColor);
+    transform: scale(0.75);
 }
 
 #name, #email {
     width: 200px;
     display:inline-flex;
 }
+
+@media screen and (max-width: 992px) {
+    .theme-toggle {
+        display:flex;
+        flex-wrap: wrap;
+        left: 300px;
+    }
+  }
+  
