@@ -25,6 +25,7 @@ body {
     background-color: var(--dark);
     color:var(--darkFont);
     position: relative;
+    left: 500px;
 }
 
 button {
