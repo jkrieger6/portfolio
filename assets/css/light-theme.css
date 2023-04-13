@@ -12,6 +12,8 @@ body {
 
 .theme-toggle {
     background-color: white;
+    position: relative;
+    left: 500px;
 }
 
 button {
