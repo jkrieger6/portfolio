@@ -2,6 +2,8 @@
     --borderColor:red;
     --fontFam:helvetica, sans-serif;
     --fontSize:16px;
+    --darkTheme:rgb(73, 67, 67);
+    --darkThemeFont:rgba(0, 250, 221, 0.789);
 }
 
 body {
@@ -14,6 +16,11 @@ body {
     background-color: white;
     position: relative;
     left: 500px;
+}
+
+.theme-toggle:hover {
+    background-color:var(--darkTheme);
+    color: var(--darkThemeFont);
 }
 
 button {
@@ -31,8 +38,9 @@ button {
 }
 
 .icon:hover {
-    outline-offset: 3px;
+    outline-offset: 4px;
     color:black;
+    transform: scale(0.75);
 }
 
 .card {
@@ -53,6 +61,10 @@ button {
 .btn {
     background-color: black;
     border-color: black;
+}
+
+.btn:hover {
+    background-color: rgba(60, 60, 255, 0.825);
 }
 
 #name, #email {
