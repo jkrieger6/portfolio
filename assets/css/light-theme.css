@@ -23,6 +23,14 @@ body {
     color: var(--darkThemeFont);
 }
 
+#nav-link {
+    color: black;
+}
+
+#nav-link:hover {
+    color:var(--borderColor);
+}
+
 button {
     color:var(--borderColor);
     background-color: white;
