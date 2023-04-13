@@ -17,8 +17,13 @@ body {
 .navbar {
     background-color: var(--dark);
 }
-.nav-link {
+
+#nav-link {
     color:var(--darkFont)
+}
+
+#nav-link:hover {
+    color:var(--buttonColor)
 }
 
 .theme-toggle {
