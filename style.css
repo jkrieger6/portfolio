@@ -47,7 +47,7 @@ button {
 .card {
     background-color: var(--dark);
     border-radius: 1.5%;
-    border-width: 3px;
+    border-width: 1.5px;
     border-color: var(--buttonColor);
 }
 
