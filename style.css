@@ -29,6 +29,7 @@ body {
 .theme-toggle {
     background-color: var(--dark);
     color:var(--darkFont);
+    border-radius: 20px;
     position: relative;
     left: 500px;
 }
