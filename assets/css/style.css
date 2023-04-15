@@ -88,6 +88,7 @@ button {
     border-radius: 1.5%;
     border-width: 1.5px;
     border-color: var(--buttonColor);
+    margin-bottom: 5px;
 }
 
 .card:hover {
